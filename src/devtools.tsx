@@ -32,7 +32,7 @@ export const Devtools = ({
 }: DevtoolsProps) => {
   return (
     <div className="fixed bottom-6 flex w-full justify-center">
-      <div className="flex gap-3 rounded-xl bg-white/20 p-4 font-mono text-white backdrop-blur-lg">
+      <div className="flex flex-wrap justify-center gap-3 rounded-xl bg-white/20 p-4 font-mono text-white backdrop-blur-lg">
         <div className="flex flex-col">
           <label>Glass section width</label>
           <input
